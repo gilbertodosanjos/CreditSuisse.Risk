@@ -1,0 +1,128 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/avastacia-services/Área de trabalho/Giberto/Git/CreditSuisse.Risk/src/CreditSuisse.Application/CreditSuisse.Application.csproj": {}
+  },
+  "projects": {
+    "/home/avastacia-services/Área de trabalho/Giberto/Git/CreditSuisse.Risk/src/CreditSuisse.Application/CreditSuisse.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/avastacia-services/Área de trabalho/Giberto/Git/CreditSuisse.Risk/src/CreditSuisse.Application/CreditSuisse.Application.csproj",
+        "projectName": "CreditSuisse.Application",
+        "projectPath": "/home/avastacia-services/Área de trabalho/Giberto/Git/CreditSuisse.Risk/src/CreditSuisse.Application/CreditSuisse.Application.csproj",
+        "packagesPath": "/home/avastacia-services/.nuget/packages/",
+        "outputPath": "/home/avastacia-services/Área de trabalho/Giberto/Git/CreditSuisse.Risk/src/CreditSuisse.Application/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/avastacia-services/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/home/avastacia-services/Área de trabalho/Giberto/Git/CreditSuisse.Risk/src/CreditSuisse.Domain/CreditSuisse.Domain.csproj": {
+                "projectPath": "/home/avastacia-services/Área de trabalho/Giberto/Git/CreditSuisse.Risk/src/CreditSuisse.Domain/CreditSuisse.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
+            "System.Globalization": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.110/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/avastacia-services/Área de trabalho/Giberto/Git/CreditSuisse.Risk/src/CreditSuisse.Domain/CreditSuisse.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/avastacia-services/Área de trabalho/Giberto/Git/CreditSuisse.Risk/src/CreditSuisse.Domain/CreditSuisse.Domain.csproj",
+        "projectName": "CreditSuisse.Domain",
+        "projectPath": "/home/avastacia-services/Área de trabalho/Giberto/Git/CreditSuisse.Risk/src/CreditSuisse.Domain/CreditSuisse.Domain.csproj",
+        "packagesPath": "/home/avastacia-services/.nuget/packages/",
+        "outputPath": "/home/avastacia-services/Área de trabalho/Giberto/Git/CreditSuisse.Risk/src/CreditSuisse.Domain/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/avastacia-services/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.110/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
